@@ -124,12 +124,12 @@ namespace MixedRemoteViewCompositor
 
         private void Start()
         {
-            this.isStarted = true;
+            this.isStarted = true; 
 
-            if (Plugin.IsHoloLens && SelectedListener == SelectedListener.CaptureDevice)
+            //if (Plugin.IsHoloLens && SelectedListener == SelectedListener.CaptureDevice)
             {
                 StartListener();
-            }
+            } 
         }
 
         private void Update()
